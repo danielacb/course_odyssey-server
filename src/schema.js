@@ -23,7 +23,8 @@ const typeDefs = gql`
     author: Author!
     thumbnail: String
     url: String
-    length: Int
+    length: Int @deprecated(reason: "use durationInSeconds")
+    durationInSeconds: Int
     modulesCount: Int
     description: String
     numberOfViews: Int
@@ -39,7 +40,8 @@ const typeDefs = gql`
   type Module {
     id: ID!
     title: String!
-    length: Int
+    length: Int @deprecated(reason: "use durationInSeconds")
+    durationInSeconds: Int
   }
 `;
 

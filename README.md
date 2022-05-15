@@ -1,5 +1,7 @@
 # Odyssey Lift-off (Server)
 
+> Odyssey is Apollo's official learning platform that offers free hands-on GraphQL tutorials!
+
 Welcome to the server of the Odyssey Lift-off! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/), Apollo's learning platform.
 
 ## How to use this repo
